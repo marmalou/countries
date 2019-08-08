@@ -11,11 +11,10 @@
 <script>
 import { eventBus } from './main.js'
 import CountriesList from './components/CountriesList.vue';
-import CountryDetail from './components/CountryDetail.vue'
+import CountryDetail from './components/CountryDetail.vue';
 export default {
-  name: 'app',
-  data(){
-    return {
+  name: "app"
+  return {
       countries: [],
       selectedCountry: null
     }
